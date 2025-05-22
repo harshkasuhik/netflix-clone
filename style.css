@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url(img.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main {
+    margin: 10px auto;
+
+    width: 450px;
+    height: 757px;
+    border-radius: 10px;
+    background-color: #121212;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent background */
+    /* 
+    opacity: 1; Ensures the heading stays fully visible */
+}
+
+h2 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    font-size: 50px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: #121212;
+    height: 50px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.asla {
+    margin-bottom: 30px;
+}
+
+.yy {
+    background-color: red;
+    position: relative;
+    left: 50px;
+    top: 120px;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.or {
+    position: relative;
+    left: 180px;
+    top: 140px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.yk {
+    background-color: #121212;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    position: relative;
+    top: 200px;
+    right: 150px;
+
+}
+
+.jk {
+    position: relative;
+    top: 250px;
+    right: 364px;
+
+}
+
+.jp {
+    position: relative;
+    top: 215px;
+    left: 95px;
+}
+.email:hover{
+    box-shadow: 4px 4px 8px whitesmoke;
+    transition: 1s ease-in-out;
+
+}
